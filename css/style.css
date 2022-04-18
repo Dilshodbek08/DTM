@@ -138,7 +138,7 @@ output{
   background-color: rgb(74, 117, 166);
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:375px){
   .container {
     max-width: 350px;
     height: 100%;
