@@ -6,16 +6,11 @@ var ElOutput = document.querySelector(".output");
 var ElOutput1 = document.querySelector(".output1");
 var ElOutput2 = document.querySelector(".output2");
 var ElOutput3 = document.querySelector(".output3");
-var ElOutput4 = document.querySelector(".output4");
 
 ElOutput.style.display = "none";  
 ElOutput1.style.display = "none";  
 ElOutput2.style.display = "none";  
-ElOutput3.style.display = "none";  
-ElOutput4.style.display = "none";  
-
-var inst = ["a","b","c"];
-
+ElOutput3.style.display = "none";
 
 //************** BUTTON Check on CLICK **************//
 
@@ -103,7 +98,7 @@ ElButton.addEventListener("click", function(e){
       } else if (x <= Budjet1 && x >= 121) {
         ElOutput3.style.display = "block";
         ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-        ElOutput3.style.backgroundColor = "#9bd248";
+        ElOutput3.style.backgroundColor = "#539451";
         console.log(x);
       } else if (x <= 89){
           alert("You are failed, try again next year😑");
@@ -136,7 +131,7 @@ ElButton.addEventListener("click", function(e){
       } else if (x <= Budjet2 && x >= 141) {
         ElOutput3.style.display = "block";
         ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-        ElOutput3.style.backgroundColor = "#9bd248";
+        ElOutput3.style.backgroundColor = "#539451";
         console.log(x);
       } else if (x <= 74){
           alert("You are failed, try again next year😑");
@@ -169,7 +164,7 @@ ElButton.addEventListener("click", function(e){
     } else if (x <= Budjet3 && x >= 137) {
       ElOutput3.style.display = "block";
       ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-      ElOutput3.style.backgroundColor = "#9bd248";
+      ElOutput3.style.backgroundColor = "#539451";
       console.log(x);
     } else if (x <= 109){
         alert("You are failed, try again next year😑");
@@ -202,7 +197,7 @@ ElButton.addEventListener("click", function(e){
     } else if (x <= Budjet3 && x >= 137) {
       ElOutput3.style.display = "block";
       ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-      ElOutput3.style.backgroundColor = "#9bd248";
+      ElOutput3.style.backgroundColor = "#539451";
       console.log(x);
     } else if (x <= 109){
         alert("You are failed, try again next year😑");
@@ -235,7 +230,7 @@ ElButton.addEventListener("click", function(e){
     } else if (x <= Budjet4 && x >= 141) {
       ElOutput3.style.display = "block";
       ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-      ElOutput3.style.backgroundColor = "#9bd248";
+      ElOutput3.style.backgroundColor = "#539451";
       console.log(x);
     } else if (x <= 86){
         alert("You are failed, try again next year😑");
@@ -264,7 +259,7 @@ ElButton.addEventListener("click", function(e){
     } else if (x <= Budjet5 && x >= 180) {
       ElOutput3.style.display = "block";
       ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-      ElOutput3.style.backgroundColor = "#9bd248";
+      ElOutput3.style.backgroundColor = "#539451";
       console.log(x);
     } else if (x >= 190){
       alert("Invalid Value!");
@@ -293,7 +288,7 @@ ElButton.addEventListener("click", function(e){
     } else if (x <= Budjet6 && x >= 158) {
       ElOutput3.style.display = "block";
       ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-      ElOutput3.style.backgroundColor = "#9bd248";
+      ElOutput3.style.backgroundColor = "#539451";
       console.log(x);
     } else if (x <= 128){
         alert("You are failed, try again next year😑");
@@ -326,7 +321,7 @@ ElButton.addEventListener("click", function(e){
     } else if (x <= Budjet6 && x >= 158) {
       ElOutput3.style.display = "block";
       ElOutput3.textContent = "You have been admitted to study on the basis of Grand‌‌🙂🎉";
-      ElOutput3.style.backgroundColor = "#9bd248";
+      ElOutput3.style.backgroundColor = "#539451";
       console.log(x);
     } else if (x <= 128){
         alert("You are failed, try again next year😑");
